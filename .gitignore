@@ -1,0 +1,35 @@
+# Dependencias de Node (se reinstalan con npm install)
+node_modules/
+
+# Build de Vite / frontend
+dist/
+dist-ssr/
+
+# Build de .NET
+bin/
+obj/
+
+# Visual Studio / Rider
+.vs/
+*.user
+*.suo
+
+# Variables de entorno y secretos (nunca subir a Git)
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+*.pfx
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales del editor
+*.sw?
+.idea/
